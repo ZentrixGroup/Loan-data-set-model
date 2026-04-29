@@ -21,5 +21,5 @@ The goal of this project is to automate the loan eligibility process based on cu
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/ZentrixGroup/loan-prediction-app.git](https://github.com/your-username/loan-prediction-app.git)
+   git clone [https://github.com/ZentrixGroup/loan-prediction-app.git](https://github.com/ZentrixGroup/loan-prediction-app.git)
    cd loan-prediction-app
