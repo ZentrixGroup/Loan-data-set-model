@@ -18,13 +18,13 @@ for col in categorical_cols:
 # Fill missing values in the numerical column with the median
 df['LoanAmount'] = df['LoanAmount'].fillna(df['LoanAmount'].median())
 
-# 3. Label Encoding
+# 3. Data Pre-processing
 # Convert categorical text data into numerical values using factorization
 # This ensures consistency for the model and deployment (e.g., Streamlit)
 for col in df.select_dtypes(include=['object']).columns:
     df[col] = pd.factorize(df[col])[0]
 
-# 4. Model Building
+# 4. 
 # Define features (X) and target variable (y)
 X = df.drop('Loan_Status', axis=1)
 y = df['Loan_Status']
